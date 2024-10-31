@@ -1,0 +1,19 @@
+#class {abroham}{open}
+
+#gag The greenstone amulet feels
+#gag Done.
+#gag will not be fooled
+#gag You accept that pain
+#gag Your mind is burdened
+#gag You harness the pain
+#gag You recognise
+#gag You store the pain deep
+#gag {Your senses flow}
+#alias {abupdate}{#read .tt/char/abroham.tin}
+#alias {corpsetrig}{reclaim;get coins;hide;suspend}
+#act {Having regained your mental focus completely}{..}
+#act {You shock your body}{suspend}
+#act {The effects of the spice wear off}{drink beer}
+
+
+#class {abroham}{close}
